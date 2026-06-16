@@ -7,20 +7,32 @@ import Accords from './pages/Accords.jsx'
 import Progressions from './pages/Progressions.jsx'
 import StylesPage from './pages/StylesPage.jsx'
 import Entrainement from './pages/Entrainement.jsx'
+import Messe from './pages/Messe.jsx'
+import Cantiques from './pages/Cantiques.jsx'
+import Calendrier from './pages/Calendrier.jsx'
+import Techniques from './pages/Techniques.jsx'
+import Registrations from './pages/Registrations.jsx'
+import Preparation from './pages/Preparation.jsx'
 
 export default function App() {
   const [page, setPage] = useState('home')
 
   function renderPage() {
     switch (page) {
-      case 'home':         return <Home onNavigate={setPage} />
-      case 'solfege':      return <Solfege />
-      case 'gammes':       return <Gammes />
-      case 'accords':      return <Accords />
-      case 'progressions': return <Progressions />
-      case 'styles':       return <StylesPage />
-      case 'entrainement': return <Entrainement />
-      default:             return <Home onNavigate={setPage} />
+      case 'home':          return <Home onNavigate={setPage} />
+      case 'solfege':       return <Solfege />
+      case 'gammes':        return <Gammes />
+      case 'accords':       return <Accords />
+      case 'progressions':  return <Progressions />
+      case 'styles':        return <StylesPage />
+      case 'entrainement':  return <Entrainement />
+      case 'messe':         return <Messe />
+      case 'cantiques':     return <Cantiques />
+      case 'calendrier':    return <Calendrier />
+      case 'techniques':    return <Techniques />
+      case 'registrations': return <Registrations />
+      case 'preparation':   return <Preparation onNavigate={setPage} />
+      default:              return <Home onNavigate={setPage} />
     }
   }
 
