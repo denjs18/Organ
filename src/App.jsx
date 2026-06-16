@@ -1,6 +1,7 @@
 import { useState } from 'react'
 import Navigation from './components/Navigation.jsx'
 import Home from './pages/Home.jsx'
+import Solfege from './pages/Solfege.jsx'
 import Gammes from './pages/Gammes.jsx'
 import Accords from './pages/Accords.jsx'
 import Progressions from './pages/Progressions.jsx'
@@ -13,6 +14,7 @@ export default function App() {
   function renderPage() {
     switch (page) {
       case 'home':         return <Home onNavigate={setPage} />
+      case 'solfege':      return <Solfege />
       case 'gammes':       return <Gammes />
       case 'accords':      return <Accords />
       case 'progressions': return <Progressions />

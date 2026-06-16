@@ -1,5 +1,6 @@
 const NAV_ITEMS = [
   { id: 'home',         label: 'Accueil',      icon: '🏠' },
+  { id: 'solfege',      label: 'Solfège',       icon: '📝' },
   { id: 'gammes',       label: 'Gammes',        icon: '🎹' },
   { id: 'accords',      label: 'Accords',       icon: '🎵' },
   { id: 'progressions', label: 'Progressions',  icon: '🎼' },

@@ -1,6 +1,13 @@
 export default function Home({ onNavigate }) {
   const features = [
     {
+      id: 'solfege',
+      icon: '📝',
+      title: 'Solfège',
+      desc: 'Apprends à lire les notes sur portée (clé de Sol et Fa), distingue majeur/mineur à l\'oreille, et retiens les intervalles.',
+      color: '#c0709a',
+    },
+    {
       id: 'gammes',
       icon: '🎹',
       title: 'Gammes & Modes',
