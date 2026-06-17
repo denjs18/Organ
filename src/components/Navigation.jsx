@@ -6,6 +6,7 @@ const NAV_ITEMS = [
   { id: 'progressions',  label: 'Progressions',  icon: '🎼' },
   { id: 'styles',        label: 'Styles',        icon: '📖' },
   { id: 'entrainement',  label: 'Entraînement',  icon: '⏱️' },
+  { id: 'improvisation', label: 'Improvisation', icon: '🎹' },
   { id: 'messe',         label: 'La Messe',      icon: '⛪' },
   { id: 'cantiques',     label: 'Cantiques',     icon: '🎵' },
   { id: 'calendrier',    label: 'Calendrier',    icon: '📅' },

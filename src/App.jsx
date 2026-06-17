@@ -7,6 +7,7 @@ import Accords from './pages/Accords.jsx'
 import Progressions from './pages/Progressions.jsx'
 import StylesPage from './pages/StylesPage.jsx'
 import Entrainement from './pages/Entrainement.jsx'
+import Improvisation from './pages/Improvisation.jsx'
 import Messe from './pages/Messe.jsx'
 import Cantiques from './pages/Cantiques.jsx'
 import Calendrier from './pages/Calendrier.jsx'
@@ -26,6 +27,7 @@ export default function App() {
       case 'progressions':  return <Progressions />
       case 'styles':        return <StylesPage />
       case 'entrainement':  return <Entrainement />
+      case 'improvisation': return <Improvisation />
       case 'messe':         return <Messe />
       case 'cantiques':     return <Cantiques />
       case 'calendrier':    return <Calendrier />
