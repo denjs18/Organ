@@ -1,11 +1,18 @@
 const NAV_ITEMS = [
-  { id: 'home',         label: 'Accueil',      icon: '🏠' },
-  { id: 'solfege',      label: 'Solfège',       icon: '📝' },
-  { id: 'gammes',       label: 'Gammes',        icon: '🎹' },
-  { id: 'accords',      label: 'Accords',       icon: '🎵' },
-  { id: 'progressions', label: 'Progressions',  icon: '🎼' },
-  { id: 'styles',       label: 'Styles',        icon: '📖' },
-  { id: 'entrainement', label: 'Entraînement',  icon: '⏱️' },
+  { id: 'home',          label: 'Accueil',      icon: '🏠' },
+  { id: 'solfege',       label: 'Solfège',       icon: '📝' },
+  { id: 'gammes',        label: 'Gammes',        icon: '🎹' },
+  { id: 'accords',       label: 'Accords',       icon: '🎵' },
+  { id: 'progressions',  label: 'Progressions',  icon: '🎼' },
+  { id: 'styles',        label: 'Styles',        icon: '📖' },
+  { id: 'entrainement',  label: 'Entraînement',  icon: '⏱️' },
+  { id: 'improvisation', label: 'Improvisation', icon: '🎹' },
+  { id: 'messe',         label: 'La Messe',      icon: '⛪' },
+  { id: 'cantiques',     label: 'Cantiques',     icon: '🎵' },
+  { id: 'calendrier',    label: 'Calendrier',    icon: '📅' },
+  { id: 'techniques',    label: 'Techniques',    icon: '🎓' },
+  { id: 'registrations', label: 'Jeux d\'orgue', icon: '🎛️' },
+  { id: 'preparation',   label: 'Préparation',   icon: '📋' },
 ]
 
 export default function Navigation({ current, onChange }) {
